@@ -1,0 +1,5 @@
+amoured-vehicle
+artillery
+person
+tank
+truck

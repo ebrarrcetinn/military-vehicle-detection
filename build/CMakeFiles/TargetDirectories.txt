@@ -1,0 +1,3 @@
+C:/Users/ebrar/Desktop/TankTespiti/build/CMakeFiles/tanktespiti.dir
+C:/Users/ebrar/Desktop/TankTespiti/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ebrar/Desktop/TankTespiti/build/CMakeFiles/ZERO_CHECK.dir

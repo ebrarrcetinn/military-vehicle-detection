@@ -1,0 +1,10 @@
+^C:\USERS\EBRAR\DESKTOP\TANKTESPITI\BUILD\CMAKEFILES\92A63300295C7DA17D36F29EB0292E0E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ebrar/Desktop/TankTespiti -BC:/Users/ebrar/Desktop/TankTespiti/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ebrar/Desktop/TankTespiti/build/TankTespiti.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

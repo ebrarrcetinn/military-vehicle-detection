@@ -1,0 +1,10 @@
+^C:\USERS\EBRAR\DESKTOP\TANKTESPITI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ebrar/Desktop/TankTespiti -BC:/Users/ebrar/Desktop/TankTespiti/build --check-stamp-file C:/Users/ebrar/Desktop/TankTespiti/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
