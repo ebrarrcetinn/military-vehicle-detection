@@ -57,7 +57,7 @@ mkdir build && cd build
 cmake ..
 make
 ./tanktespiti
------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 Military Vehicle Detection System
 This project is a real-time military vehicle detection application written in C++, designed to run on NVIDIA Jetson platforms. It was developed and tested on Windows. The system detects tanks, armoured vehicles, soldiers, artillery and military trucks in every video frame, draws bounding boxes around detected objects and displays confidence percentages on screen.
